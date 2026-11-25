@@ -9,14 +9,18 @@ Every fact has a source and a tier: **A** official, **B** independent, **C** has
 
 ## Install
 
+### ⬇️ [Download the skill (company-zoom-in.zip)](https://kkindasara.github.io/company-zoom-in/company-zoom-in.zip)
+
 **In the Claude app** (code execution must be on):
-1. Open `company-zoom-in/SKILL.md` in this repository and click the download button ("Download raw file").
-2. Put the file in a folder named `company-zoom-in` and compress that folder into a ZIP (on a Mac: right-click the folder, then **Compress**). The folder name must stay `company-zoom-in`.
-3. In Claude, go to **Customize > Skills**, click **+**, then **+ Create skill**, then **Upload a skill**, and upload the ZIP.
+1. Click the download link above. Don't unzip it.
+2. Open [Claude > Customize > Skills](https://claude.ai/customize/skills), click **+**, then **+ Create skill**, then **Upload a skill**, and upload the ZIP.
+3. Start a new chat and type: *Zoom in on Wayfair for Elihome.*
+
+**Colleagues on the same Claude Team or Enterprise plan:** you don't need the ZIP. Ask the owner of the skill to share it with you (or publish it to the organization), then turn it on under **Shared with you** in [Customize > Skills](https://claude.ai/customize/skills).
 
 ([Use Skills in Claude](https://support.claude.com/en/articles/12512180-use-skills-in-claude))
 
-**In Claude Code:** save the file as `~/.claude/skills/company-zoom-in/SKILL.md`.
+**In Claude Code:** save [SKILL.md](https://raw.githubusercontent.com/kkindasara/company-zoom-in/main/company-zoom-in/SKILL.md) as `~/.claude/skills/company-zoom-in/SKILL.md`.
 
 ## Use
 
