@@ -10,13 +10,13 @@ Every fact has a source and a tier: **A** official, **B** independent, **C** has
 ## Install
 
 **In the Claude app** (code execution must be on):
-1. Download `company-zoom-in.zip` from this repository.
-2. In Claude, go to **Customize > Skills**, click **+**, then **+ Create skill**, then **Upload a skill**.
-3. Upload the ZIP.
+1. Open `company-zoom-in/SKILL.md` in this repository and click the download button ("Download raw file").
+2. Put the file in a folder named `company-zoom-in` and compress that folder into a ZIP (on a Mac: right-click the folder, then **Compress**). The folder name must stay `company-zoom-in`.
+3. In Claude, go to **Customize > Skills**, click **+**, then **+ Create skill**, then **Upload a skill**, and upload the ZIP.
 
 ([Use Skills in Claude](https://support.claude.com/en/articles/12512180-use-skills-in-claude))
 
-**In Claude Code:** unzip it so the file sits at `~/.claude/skills/company-zoom-in/SKILL.md`.
+**In Claude Code:** save the file as `~/.claude/skills/company-zoom-in/SKILL.md`.
 
 ## Use
 
